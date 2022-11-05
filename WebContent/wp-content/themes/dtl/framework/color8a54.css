@@ -1,0 +1,125 @@
+
+/* 01 MAIN STYLES
+****************************************************************************************************/
+::selection {
+  color: #fff;
+  background: #ffc434;
+}
+::-moz-selection {
+  color: #fff;
+  background: #ffc434;
+}
+/* default color: #FAB702 */
+#subheader{
+      background-image:url(../images/bg-subheader.jpg);
+  }
+
+header{
+  }
+
+header.smaller, header.cbp-af-header-shrink{
+  background-color:#ffffff; 
+}
+#mainmenu a{
+  color: #ffffff;
+}
+header.cbp-af-header-shrink #mainmenu a{
+  color: #555555;
+}
+#mainmenu li.current-menu-item > a, nav ul#mainmenu > li.current-menu-ancestor > a {color: #ffc434;}
+#mainmenu li.current-menu-ancestor li.current-menu-item a {background-color:#ffc434;}
+
+@media (max-width: 992px) {
+  header.cbp-af-header, #mainmenu li li, header.cbp-af-header-shrink {
+    background-color:#ffffff;
+  }
+      #mainmenu li {border-bottom-color:#eeeeee;}
+    #mainmenu > li li:first-child {border-top-color:#eeeeee;}
+    #mainmenu li ul {border-top-color:#eeeeee;} 
+  
+  #mainmenu li:hover{background-color:#ffc434;}
+  #mainmenu li a{
+    color: #555555 !important;
+  }
+}
+
+a,
+.id-color,
+.list-2-col li:hover a,
+.list-2-col li:hover:before,
+.twitter-widget li a,
+#subheader h1.page-title,
+.counter .num,
+h1.id-color,h2.id-color,
+.team-list .name,
+.timeline-year .date,
+footer .social i:hover,
+#mainmenu li:hover a,
+.news-item .fa,
+.pagination li a, header .social a, .feature-box i,
+.team-social-icons i, .date-box, header .search-form:before, .info-box i,
+.news-item.style-2 a:hover h4, .btn-open-map span.url
+{color:#ffc434;}
+
+.divider-deco span,
+.box-icon-small i ,
+.tiny-border,
+.bg-color,
+.btn-custom,
+.news-list-date .date,
+.feature-box.icon-square > i,
+.owl-custom-nav .btn-next:before,
+.owl-custom-nav .btn-prev:before,
+#testi-carousel-2 blockquote,
+.owl-theme .owl-controls .owl-page.active span,
+.awards-carousel .overlay,
+.side-nav li.active,
+.testi-box-1 blockquote,
+.simple-form input[type=submit],
+.btn-expand:before,
+.faq .icon-search,
+#mainmenu li li a:hover,
+.pagination li.active a,
+.news-item .quote,
+.ex-gallery .small-border,
+#menu-btn , .news-item.style-2 .date,
+.timeline.custom-tl > li > .timeline-badge,
+ul.progress li.active,
+ul.progress li.beforeactive:before,
+.small-border, .social-icons i, .icon-big,
+.call-to-action, a.btn-slider, .h-line, .preview2 .bloglist-small .date-box,
+.widget_nav_menu ul li.current-menu-item, .widget_search #btn-search,
+.pagination li.active a, .pagination li span.current, 
+.footer-widget .newsletter-widget form .newsletter-submit,
+#back-to-top, .bloglist-small .date-box
+{background-color:#ffc434;}
+
+.line-deco span:before,
+.line-deco span:after,
+.box-icon-small .btn-arrow span.line,
+.sub-intro-text span:before,
+.sub-intro-text span:after,
+.crumb span:before,
+.crumb span:after,
+.pagination li.active a, .social-icons i, .social-icons i:hover
+{border-color:#ffc434;}
+.bg_transparent.vc_tta.vc_general .vc_tta-panel, .box-with-icon-left .text {border-left-color:#ffc434;}
+ul.progress li.active:after {
+border-color: transparent transparent transparent #ffc434;
+}
+.arrow-down{
+	border-top: 5px solid #ffc434;
+}
+.team-profile .text, .btn-open-map span.line {border-top-color: #ffc434;}
+.widget_search #search:focus, .pagination li.active a, .pagination li span.current {border-color: #ffc434;}
+
+.preview1 .bloglist-small .date-box {background-color: #eee;}
+
+/**** Custom CSS Footer ****/
+footer {
+    background: #1f242e;
+    color: #7d7d7d;
+}
+.subfooter {
+    background: #1b1f27;
+}

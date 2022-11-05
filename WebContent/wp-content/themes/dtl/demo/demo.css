@@ -1,0 +1,136 @@
+#switcher{
+	color:#333;
+	padding:10px;
+	padding-bottom:20px;
+	background:#fff;
+	font-size:12px;
+	position:fixed;
+	z-index:1000;
+	top:150px;
+	left:0;
+	padding-left:20px;
+	font-family:"Open Sans", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-left:-120px;
+	border-radius: 0 0 2px 0;
+	-moz-border-radius: 0 0 2px 0;
+	-webkit-border-radius: 0 0 2px 0;
+	width:120px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#switcher .clearfix{
+	margin-bottom:10px;
+}
+
+#switcher span{
+	font-size:12px;
+}
+
+.custom-show:after,.custom-close:after{
+	position:absolute;
+	margin-left:100px;
+	margin-top:-10px;
+	display:inline-block;
+	width:42px;
+	height:40px;
+	padding:10px;
+	padding-right:15px;
+	background:#bbb !important;
+	color:#000;	
+	cursor:pointer;
+	content:"\f013";
+	font-family:"FontAwesome";
+	font-size:24px;
+	font-weight:normal;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wp_purchased {
+	position:absolute;
+	margin-left:100px;
+	display:block;
+	width:42px;
+	height:40px;
+	padding:10px;
+	padding-left:8px;
+	background:#bbb;
+	color:#000;	
+	background-color:#fab702;
+	font-size:24px;
+	font-weight:normal;
+	top: 42px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wp_purchased:hover i {color: #2b2b2b;}
+#de-color {
+	padding:0;
+	margin:0;
+}
+#de-color li{
+	list-style:none;
+	display:inline-block;
+	float:left;
+	width:38px;
+	height:25px;
+	margin:0 5px 5px 0;
+	background:#0C9;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	cursor:pointer;
+}
+
+#de-color li.bg1{background:#00b9b6;}
+#de-color li.bg2{background:#ffc434;}
+#de-color li.bg3{background:#b6d15c;}
+#de-color li.bg4{background:#f47824;}
+#de-color li.bg5{background:#f5245f;}
+#de-color li.bg6{background:#d03232;}
+#de-color li.bg7{background:#ffc434;}
+
+#de-color li:hover{
+	opacity:1;
+}
+
+#switcher select{
+	width:74px !important;
+	font-size:12px;
+	height:25px;
+	border:none;
+	background:#eee;
+	font-weight:600;
+	 -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	background:url(arrow-down.png) right no-repeat #eee;
+	padding-right:22px;
+}
+
+#switcher select:hover{
+	background-color:#ddd;
+}
+
+#switcher select,
+#de-color li
+{
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	 outline: none;
+}
+
+#switcher small {
+  display: inline-block;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 18px;
+}
